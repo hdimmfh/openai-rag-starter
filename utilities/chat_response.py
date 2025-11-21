@@ -2,7 +2,7 @@ from langchain.agents import AgentType, initialize_agent
 from langchain.agents import Tool
 from langchain.chat_models import ChatOpenAI
 
-from RAG.util import faiss, serp
+from utilities.rag_lib import faiss, serp
 
 tools = [
     Tool(

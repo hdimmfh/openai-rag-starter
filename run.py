@@ -1,5 +1,5 @@
-from RAG.chat_response import agent
-from RAG.build_memory import build
+from utilities.chat_response import agent
+from utilities.build_memory import build
 from langchain.memory import ConversationBufferWindowMemory
 
 memory_instance = ConversationBufferWindowMemory(k=10, memory_key='chat_history', return_messages=True)
